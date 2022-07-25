@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/facultyItemId"
+    android:layout_margin="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:orientation="horizontal"
+    android:weightSum="2">
+    <LinearLayout
+        android:paddingLeft="12dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacherNameId"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Sree Nirmal Chandra Datta"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacherPostId"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Principal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacherEmailId"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="sumonshahin223@gmail.com"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/teacherUpdateInfoId"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:text="UpdateInfo" />
+
+    </LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/teacherImageId"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_weight="0.5"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/teacher_person"/>
+
+
+
+
+
+</LinearLayout>
+
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

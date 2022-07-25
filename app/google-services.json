@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "852378470068",
+    "project_id": "admin-panel-college-apps",
+    "storage_bucket": "admin-panel-college-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852378470068:android:f95d8fb787b03aa04739e1",
+        "android_client_info": {
+          "package_name": "com.example.admincollegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852378470068-mr64mtf3ag5sdohquef82lf47148irkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admincollegeapp",
+            "certificate_hash": "26dc16780125788f72f8de2276de60dd291d26e9"
+          }
+        },
+        {
+          "client_id": "852378470068-9s2pl0tcn5a26a9ot4u8jshhtp3kubia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf9yUh3a0wO3En0dezdEdqjgVn4_kLHQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852378470068-9s2pl0tcn5a26a9ot4u8jshhtp3kubia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
